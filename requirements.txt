@@ -1,0 +1,1 @@
+django-sendsms==0.2.2
