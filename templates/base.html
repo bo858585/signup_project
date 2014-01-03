@@ -10,6 +10,7 @@
     {% else %}
         <a href="{% url 'login' %}">Войти</a>
         <a href="{% url 'signup' %}">Регистрация</a>
+        <a href="{% url 'forgot_password' %}">Восстановление пароля</a>
     {% endif %}
 
     {% if messages %}
